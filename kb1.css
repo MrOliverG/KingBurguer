@@ -26,37 +26,6 @@ header {
     flex-wrap: nowrap;
 }
 
-.divider{
-    display: flex;
-    height: 3px;
-    background-color: yellow;
-}
-
-.titulo{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: left;
-    align-items:flex-end;
-    height: 90px;
-    color: black;
-    background-color: rgb(214, 214, 214);
-    box-shadow: 0px 3px 5px #0a0a0a87;
-    
-}
-
-.centerbox{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-content: space-between;
-    height: 100%;
-    margin: 4%;
-    color: black;
-    background-color: rgb(214, 214, 214);
-    box-shadow: 0px 3px 5px #0a0a0a87;
-    
-}
-
 .toolbar {
     display: flex;
     flex-wrap: nowrap;
@@ -64,7 +33,6 @@ header {
     align-items: center;
     height: 50px;
     background-color: #353535;
-    box-shadow: 0px 3px 5px #0a0a0a;
     z-index: 2;
     font-size: 13px;
 }
@@ -92,7 +60,8 @@ header {
 
 .tbbuttons a{
     float: right;
-    padding: 20px 16px;
+    height: 100%;
+    padding: 17px 16px;
     text-decoration: none;
     border-radius: 1px;
 }
@@ -109,6 +78,47 @@ header {
     color:white;
     background-color: #2e2e2e ;
 }
+
+
+.divider{
+    display: flex;
+    height: 3px;
+    background-color: yellow;
+}
+
+
+.titulo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items:flex-end;
+    height: 90px;
+    color: black;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 0px 3px 5px #0a0a0a87;
+    
+}
+
+.centerbox{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 55%;
+    margin: 4%;
+    color: black;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 0px 3px 5px #0a0a0a87;
+    
+}
+
+.cimg{
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    outline: solid 2px black;
+}
+
 
 /* ---------------------DIVS FOR TBBUTTONS--------------------*/
 
