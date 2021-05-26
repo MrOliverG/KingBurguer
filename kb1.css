@@ -7,7 +7,6 @@
 
 
 *{
-    overflow: hidden;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -18,10 +17,6 @@
 
 body{
     background: #fefefe;
-}
-
-main{
-    flex: 1;
     overflow-y: auto;
 }
 
@@ -53,7 +48,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items:flex-end;
+    align-content: space-between;
     height: 100%;
     margin: 4%;
     color: black;
@@ -81,6 +76,10 @@ header {
 
 .tbwrapper {
     padding: 0px 10px;
+}
+
+.cbwrapper{
+    padding: 5% 8%;
 }
 
 .wrapper{
